@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: "My Portfolio",
     description:"A personal portfolio website showcasing my skills, projects, and experience.",
-    image: "/next/portfolio.PNG",
+    image: "/next/my-portfolio.png",
     technologies: [
       "HTML5",
       "CSS3",

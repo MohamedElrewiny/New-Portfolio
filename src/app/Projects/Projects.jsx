@@ -77,9 +77,9 @@ const Projects = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
             whileHover={{ y: -10 }}
-            className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+            className="bg-white border border-gray-600 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
           >
-            <div className="h-48 overflow-hidden">
+            <div className="h-48 overflow-hidden ">
               <img 
                 src={project.image} 
                 alt={project.title} 

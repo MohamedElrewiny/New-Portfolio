@@ -1,6 +1,22 @@
 export const projects = [
-  {
+    {
     id: 1,
+    title: "My Portfolio",
+    description:"A personal portfolio website showcasing my skills, projects, and experience.",
+    image: "/next/portfolio.PNG",
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "JavaScript",
+      "Animation",
+      "Next.js",
+    ],
+    demoUrl: "https://new-portfolio-fawn-xi.vercel.app/",
+    codeUrl: "https://github.com/MohamedElrewiny/New-Portfolio",
+  },
+  {
+    id: 2,
     title: "Fresh Cart",
     description:
       "A full-featured e-commerce platform with product listings, cart functionality, and payment integration.",
@@ -18,7 +34,7 @@ export const projects = [
     codeUrl: "https://github.com/MohamedElrewiny/Fresh-Cart",
   },
   {
-    id: 2,
+    id: 3,
     title: "VEHEX",
     description:
       "Auto parts website, car maintenance and oil change for most car brands.",
@@ -37,7 +53,7 @@ export const projects = [
     codeUrl: "https://github.com/MohamedElrewiny/VEHEX",
   },
   {
-    id: 3,
+    id: 4,
     title: "Saqralmadina",
     description:
       "A site for trips and transportation within the Kingdom of Saudi Arabia.",
@@ -56,7 +72,7 @@ export const projects = [
       "https://github.com/MohamedElrewiny/saqralmadina?tab=readme-ov-file",
   },
   {
-    id: 4,
+    id: 5,
     title: "La case de los regalos",
     description:
       "Spanish Commercial site selling perfumes, cosmetics and gifts.",
@@ -67,7 +83,7 @@ export const projects = [
       "https://github.com/MohamedElrewiny/Spanish-Ecommerce?tab=readme-ov-file",
   },
   {
-    id: 5,
+    id: 6,
     title: "Yummy",
     description: "display foods of different types, countries.",
     image: "/js/yummy.PNG",
@@ -76,7 +92,7 @@ export const projects = [
     codeUrl: "https://github.com/MohamedElrewiny/Yummy?tab=readme-ov-file",
   },
   {
-    id: 6,
+    id: 7,
     title: "The weather",
     description:
       "display the weather conditions in more than one place around the world.",
@@ -86,7 +102,7 @@ export const projects = [
     codeUrl: "https://github.com/MohamedElrewiny/weather-?tab=readme-ov-file",
   },
   {
-    id: 7,
+    id: 8,
     title: "Quiz App",
     description:
       "Electronic questions system (tests) at a specific time and at the end the result is displayed.",
@@ -96,7 +112,7 @@ export const projects = [
     codeUrl: "https://github.com/MohamedElrewiny/Quiz-App?tab=readme-ov-file",
   },
   {
-    id: 8,
+    id: 9,
     title: "Routing Test",
     description: "Routing for Testing.",
     image: "/react/task.PNG",
@@ -105,7 +121,7 @@ export const projects = [
     codeUrl: "https://github.com/MohamedElrewiny/routingReactTask",
   },
   {
-    id: 9,
+    id: 10,
     title: "Special Design",
     description: "Special Design for Testing.",
     image: "/css/specialDesign.PNG",
@@ -115,7 +131,7 @@ export const projects = [
       "https://github.com/MohamedElrewiny/special-design?tab=readme-ov-file",
   },
   {
-    id: 10,
+    id: 11,
     title: "cup-of-Tea-Animation",
     description:
       "                Animated Hot Cup of Tea using Html & CSS only | CSS Animation Effects.",
@@ -125,7 +141,7 @@ export const projects = [
     codeUrl: "https://github.com/MohamedElrewiny/cup-of-Tea-Animation",
   },
   {
-    id: 11,
+    id: 12,
     title: "Gymster",
     description: "Gymster for Testing.",
     image: "/css/gymster.PNG",
@@ -134,7 +150,7 @@ export const projects = [
     codeUrl: "https://github.com/MohamedElrewiny/GYMSTER?tab=readme-ov-file",
   },
   {
-    id: 12,
+    id: 13,
     title: "cafeHouse",
     description: "cafeHouse for Testing.",
     image: "/css/cafe.PNG",
@@ -143,7 +159,7 @@ export const projects = [
     codeUrl: "https://github.com/MohamedElrewiny/Cafe-?tab=readme-ov-file",
   },
   {
-    id: 13,
+    id: 14,
     title: "2rings",
     description: "2rings for Testing.",
     image: "/css/2rings.PNG",

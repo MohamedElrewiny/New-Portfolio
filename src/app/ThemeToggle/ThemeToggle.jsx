@@ -4,7 +4,7 @@ import { FaMoon, FaSun } from 'react-icons/fa';
 const ThemeToggle = ({ darkMode, toggleTheme }) => {
   return (
 <>
-    {/* <motion.button
+    <motion.button
       onClick={toggleTheme}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
@@ -32,7 +32,7 @@ const ThemeToggle = ({ darkMode, toggleTheme }) => {
           <FaSun />
         </motion.div>
       )}
-    </motion.button> */}
+    </motion.button>
 </>
   );
 };

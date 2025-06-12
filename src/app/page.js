@@ -54,7 +54,7 @@ const App = () => {
   };
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'dark bg-gray-900 text-gray-100' : 'bg-gray-50 text-gray-900'}`}>
+    <div className={`min-h-screen transition-colors duration-300  bg-gray-900 text-gray-100`}>
       {/* <ThemeToggle darkMode={darkMode} toggleTheme={toggleTheme} /> */}
       <Header activeSection={activeSection} />
       

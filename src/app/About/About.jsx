@@ -4,6 +4,8 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import profilePic from "../../Assets/imgs/me.png";
 
 const About = () => {
+
+
   return (
     <section id="about" className="py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
       <div className="grid md:grid-cols-2 gap-12 items-center">

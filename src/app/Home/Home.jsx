@@ -41,7 +41,7 @@ const Home = () => {
               >
                 <a
                   href="#contact"
-                  className="inline-block bg-primary border-2  text-white px-6 py-3 rounded-lg font-medium hover:bg-primary-dark transition-colors"
+                  className="inline-block    border-2  text-white px-6 py-3 rounded-lg font-medium hover:bg-primary-dark transition-colors"
                 >
                   Contact Me
                 </a>
@@ -54,7 +54,7 @@ const Home = () => {
                 <Link
                   href="/assets/cv/myCV.pdf"
                   download="Mohamed_Morad_CV.pdf"
-                  className="inline-block bg-[#143D95] tet-white border-2 border-[#143D95] px-6 py-3 rounded-lg font-medium hover:bg-primary-dark transition-colors"
+                  className="inline-block bg-[#143D95] text-white border-2 border-[#143D95] px-6 py-3 rounded-lg font-medium hover:bg-primary-dark transition-colors"
                 >
                   Download CV
                 </Link>

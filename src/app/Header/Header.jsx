@@ -20,8 +20,8 @@ const Header = ({ activeSection }) => {
       animate={{ y: 0 }}
       className={`fixed w-full z-50 top-0 left-0 transition-all duration-300 ${
         scrolled
-          ? "bg-white/90 dark:bg-gray-900/90 shadow-lg"
-          : "bg-white/80 dark:bg-gray-900/80"
+          ? "bg-gray-900/90 shadow-lg"
+          : "bg-gray-900/80"
       } backdrop-blur-md`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -31,9 +31,9 @@ const Header = ({ activeSection }) => {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-2xl font-bold bg-gradient-to-r from-[#143D95] to-blue-600 bg-clip-text text-transparent hover:scale-105 transition-transform"
+            className="text-2xl font-bold bg-gradient-to-r from-[#143D95] to-[#5fdbfa] text-transparent bg-clip-text hover:scale-105 transition-transform"
           >
-            Dev.<span className="text-gray-900 dark:text-white">Morad</span>
+            Dev.<span className="text-white">Morad</span>
           </motion.a>
 
           <ul className="hidden md:flex space-x-3">
@@ -49,15 +49,15 @@ const Header = ({ activeSection }) => {
                   href={`#${link.id}`}
                   className={`relative px-4 py-2 text-sm font-medium transition-all duration-300 ${
                     activeSection === link.id
-                      ? "text-primary"
-                      : "text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
+                      ? "text-white"
+                      : "text-gray-300 hover:text-white"
                   }`}
                 >
                   {link.title}
                   {activeSection === link.id && (
                     <motion.span
                       layoutId="activeSection"
-                      className="absolute left-0 bottom-0 w-full h-0.5 bg-gradient-to-r from-[#143D95] to-blue-600"
+                      className="absolute left-0 bottom-0 w-full h-0.5 bg-gradient-to-r from-blue-600 to-[#5fdbfa] "
                       transition={{
                         type: "spring",
                         stiffness: 300,

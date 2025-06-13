@@ -24,7 +24,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="bg-gray-100 dark:bg-gray-800 pt-12 pb-4 relative">
+    <footer className="bg-gray-800 pt-12 pb-4 relative">
       {showButton && (
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -60,7 +60,7 @@ const Footer = () => {
             transition={{ duration: 0.5 }}
           >
             <h3 className="text-xl font-bold text-center mb-4">Dev.Morad</h3>
-            <p className="text-gray-600 text-center dark:text-gray-400">
+            <p className=" text-center text-gray-400">
               A passionate Frontend Developer creating modern web applications
               with great user experiences.
             </p>
@@ -78,7 +78,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#home"
-                  className="text-gray-600  dark:text-gray-400 hover:text-white transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                 >
                   Home
                 </a>
@@ -86,7 +86,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#about"
-                  className="text-gray-600 dark:text-gray-400 hover:text-white transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                 >
                   About
                 </a>
@@ -94,7 +94,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#skills"
-                  className="text-gray-600 dark:text-gray-400 hover:text-white transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                 >
                   Skills
                 </a>
@@ -102,7 +102,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#projects"
-                  className="text-gray-600 dark:text-gray-400 hover:text-white transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                 >
                   Projects
                 </a>
@@ -110,7 +110,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#qualification"
-                  className="text-gray-600 dark:text-gray-400 hover:text-white transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                 >
                   Qualification
                 </a>
@@ -119,7 +119,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#contact"
-                  className="text-gray-600 dark:text-gray-400 hover:text-white transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                 >
                   Contact
                 </a>
@@ -141,7 +141,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ y: -3 }}
-                className="text-2xl text-gray-600 dark:text-gray-400 hover:text-white transition-colors"
+                className="text-2xl text-gray-400 hover:text-white transition-colors"
               >
                 <FaGithub />
               </motion.a>
@@ -150,7 +150,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ y: -3 }}
-                className="text-2xl text-gray-600 dark:text-gray-400 hover:text-white transition-colors"
+                className="text-2xl text-gray-400 hover:text-white transition-colors"
               >
                 <FaLinkedin />
               </motion.a>
@@ -159,7 +159,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ y: -3 }}
-                className="text-2xl text-gray-600 dark:text-gray-400 hover:text-white transition-colors"
+                className="text-2xl text-gray-400 hover:text-white transition-colors"
               >
                 <FaFacebook />
               </motion.a>
@@ -168,7 +168,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ y: -3 }}
-                className="text-2xl text-gray-600 dark:text-gray-400 hover:text-white transition-colors"
+                className="text-2xl text-gray-400 hover:text-white transition-colors"
               >
                 <FaInstagram />
               </motion.a>
@@ -177,7 +177,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ y: -3 }}
-                className="text-2xl text-gray-600 dark:text-gray-400 hover:text-white transition-colors"
+                className="text-2xl text-gray-400 hover:text-white transition-colors"
               >
                 <FaWhatsapp />
               </motion.a>
@@ -190,7 +190,7 @@ const Footer = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="border-t border-gray-200 dark:border-gray-700 mt-12 pt-4 text-center text-gray-600 dark:text-gray-400"
+          className="border-t border-gray-700 mt-12 pt-4 text-center text-gray-400"
         >
           <p>
             © {currentYear} <span className="text-white">Mohamed Morad</span>.

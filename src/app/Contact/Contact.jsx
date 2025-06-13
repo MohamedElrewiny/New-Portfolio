@@ -90,7 +90,7 @@ const Contact = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold mb-1">Location</h3>
-              <p className="text-gray-600 dark:text-gray-400">
+              <p className="text-gray-400">
                 {" "}
                 AL-Madinah, Saudi Arabia
               </p>
@@ -103,7 +103,7 @@ const Contact = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold mb-1">Email</h3>
-              <p className="text-gray-600 dark:text-gray-400">
+              <p className="text-gray-400">
                 moo.web22@gmail.com
               </p>
             </div>
@@ -115,7 +115,7 @@ const Contact = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold mb-1">Phone</h3>
-              <p className="text-gray-600 dark:text-gray-400">+9660570034062</p>
+              <p className="text-gray-400">+9660570034062</p>
             </div>
           </div>
         </motion.div>
@@ -138,7 +138,7 @@ const Contact = () => {
                 value={form.name}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-transparent focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full px-4 py-3 rounded-lg border border-gray-700 bg-transparent focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
 
@@ -153,7 +153,7 @@ const Contact = () => {
                 value={form.email}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-transparent focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full px-4 py-3 rounded-lg border border-gray-700 bg-transparent focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
 
@@ -168,7 +168,7 @@ const Contact = () => {
                 value={form.message}
                 onChange={handleChange}
                 required
-                className="w-full resize-none px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-transparent focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full resize-none px-4 py-3 rounded-lg border border-gray-700 bg-transparent focus:outline-none focus:ring-2 focus:ring-primary"
               ></textarea>
             </div>
 
@@ -195,8 +195,8 @@ const Contact = () => {
                 animate={{ opacity: 1, y: 0 }}
                 className={`p-4 rounded-lg ${
                   notification.type === "success"
-                    ? "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200"
-                    : "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200"
+                    ? "  bg-green-900 text-green-200"
+                    : " bg-red-900 text-red-200"
                 }`}
               >
                 {notification.message}

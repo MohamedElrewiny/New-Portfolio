@@ -77,7 +77,7 @@ const Header = ({ activeSection }) => {
           >
             <button
               type="button"
-              className="inline-flex items-center justify-center p-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+              className="inline-flex items-center justify-center p-2 rounded-lg :text-gray-300 hover:bg-gray-800 transition-colors"
               aria-label="Toggle menu"
               onClick={() => setShowMenu((prev) => !prev)}
             >
@@ -117,7 +117,7 @@ const Header = ({ activeSection }) => {
               transition={{ duration: 0.3 }}
               className="md:hidden overflow-hidden"
             >
-              <ul className="flex flex-col border dark:border-gray-600 space-y-2 py-4 px-4 bg-white/95 dark:bg-gray-900/95 backdrop-blur-md rounded-lg shadow-lg">
+              <ul className="flex flex-col border border-gray-600 space-y-2 py-4 px-4 bg-gray-900/95 backdrop-blur-md rounded-lg shadow-lg">
                 {navLinks.map((link) => (
                   <motion.li
                     key={link.id}
@@ -129,8 +129,8 @@ const Header = ({ activeSection }) => {
                       href={`#${link.id}`}
                       className={`block px-4 py-3 rounded-lg text-sm font-medium transition-all duration-300 ${
                         activeSection === link.id
-                          ? "text-primary bg-gray-50 dark:bg-gray-800"
-                          : "text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800"
+                          ? "text-primary bg-gray-800"
+                          : "text-gray-300 hover:bg-gray-800"
                       }`}
                       onClick={() => setShowMenu(false)}
                     >

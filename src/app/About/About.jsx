@@ -1,13 +1,14 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import profilePic from "../../Assets/imgs/me.png";
 
 const About = () => {
-
-
   return (
-    <section id="about" className="py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+    <section
+      id="about"
+      className="py-20 bg-gradient-to-b from-gray-900 to-gray-800"
+    >
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
@@ -53,7 +54,7 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ y: -3 }}
-              className="text-2xl text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+              className="text-2xl text-gray-300  hover:text-primary "
             >
               <FaGithub />
             </motion.a>
@@ -62,16 +63,25 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ y: -3 }}
-              className="text-2xl text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+              className="text-2xl text-gray-300  hover:text-primary "
             >
               <FaLinkedin />
+            </motion.a>
+            <motion.a
+              href="https://wa.me/+9660570034062"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ y: -3 }}
+              className="text-2xl text-gray-300  hover:text-primary "
+            >
+              <FaWhatsapp />
             </motion.a>
             <motion.a
               href="https://www.facebook.com/share/12Gc8C75UMQ/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ y: -3 }}
-              className="text-2xl text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+              className="text-2xl text-gray-300  hover:text-primary "
             >
               <FaFacebook />
             </motion.a>

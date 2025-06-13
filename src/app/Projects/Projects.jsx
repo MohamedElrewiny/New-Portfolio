@@ -59,7 +59,7 @@ const Projects = () => {
             className={`px-4 cursor-pointer py-2 rounded-full text-sm font-medium transition-colors ${
               activeFilter === filter.id
                 ? 'bg-primary text-white border bg-gray-900'
-                : 'bg-gray-100 dark:bg-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                : 'bg-gray-600 text-gray-300 hover:bg-gray-700'
             }`}
           >
             {filter.name}
@@ -77,7 +77,7 @@ const Projects = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
             whileHover={{ y: -10 }}
-            className="bg-white border border-gray-600 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+            className=" border border-gray-600 bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
           >
             <div className="h-48 overflow-hidden ">
               <img 
@@ -88,12 +88,12 @@ const Projects = () => {
             </div>
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
+              <p className="text-gray-300 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.technologies.map((tech) => (
                   <span 
                     key={tech}
-                    className="px-2 py-1 text-xs bg-gray-100 dark:bg-gray-700 rounded-md"
+                    className="px-2 py-1 text-xs bg-gray-700 rounded-md"
                   >
                     {tech}
                   </span>
@@ -104,7 +104,7 @@ const Projects = () => {
                   href={project.demoUrl} 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="py-2 px-3 border-white border rounded font-medium text-[#143D95] bg-white"
+                  className="py-2 px-3 border-gray-200 border rounded font-medium text-[#143D95] bg-gray-200"
                 >
                   Live Demo
                 </a>
@@ -112,7 +112,7 @@ const Projects = () => {
                   href={project.codeUrl} 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="py-2 px-3 border-[#143D95] border rounded font-medium bg-[#143D95] text-white"
+                  className="py-2 px-3 border-[#143D95] border rounded font-medium bg-[#143D95] text-gray-200"
                 >
                   View Code
                 </a>
@@ -129,7 +129,7 @@ const Projects = () => {
           animate={{ opacity: 1 }}
           className="text-center py-12"
         >
-          <p className="text-gray-500 dark:text-gray-400">No projects found for this filter.</p>
+          <p className="text-gray-400">No projects found for this filter.</p>
         </motion.div>
       )}
     </section>

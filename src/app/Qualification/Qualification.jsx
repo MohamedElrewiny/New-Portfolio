@@ -77,13 +77,13 @@ const Qualification = () => {
       
       <div className="max-w-2xl mx-auto">
         <div className="flex justify-center mb-12">
-          <div className="flex bg-gray-100 dark:bg-gray-800 p-1 rounded-lg">
+          <div className="flex bg-gray-800 p-1 rounded-lg">
             <button
               onClick={() => setActiveTab('education')}
               className={`px-6 py-2 rounded-md transition-colors cursor-pointer ${
                 activeTab === 'education' 
                   ? ' text-gray-700 bg-gray-100' 
-                  : 'text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                  : 'text-gray-300 hover:bg-gray-700'
               }`}
             >
               Education
@@ -93,7 +93,7 @@ const Qualification = () => {
               className={`px-6 py-2 rounded-md cursor-pointer transition-colors ${
                 activeTab === 'experience' 
                   ? 'text-gray-700 bg-gray-100' 
-                  : 'text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                  : 'text-gray-300 hover:bg-gray-700'
               }`}
             >
               Experience
@@ -120,8 +120,8 @@ const Qualification = () => {
                     <FaGraduationCap />
                   </div>
                   <h3 className="text-xl font-bold mb-1">{item.title}</h3>
-                  <p className="text-gray-600 dark:text-gray-400 mb-2">{item.institution} • {item.year}</p>
-                  <p className="text-gray-700 dark:text-gray-300">{item.description}</p>
+                  <p className="text-gray-400 mb-2">{item.institution} • {item.year}</p>
+                  <p className="text-gray-300">{item.description}</p>
                 </motion.div>
               ))}
             </>
@@ -137,8 +137,8 @@ const Qualification = () => {
                     <FaBriefcase />
                   </div>
                   <h3 className="text-xl font-bold mb-1">{item.title}</h3>
-                  <p className="text-gray-600 dark:text-gray-400 mb-2">{item.company} • {item.year}</p>
-                  <p className="text-gray-700 dark:text-gray-300">{item.description}</p>
+                  <p className="text-gray-400 mb-2">{item.company} • {item.year}</p>
+                  <p className="text-gray-300">{item.description}</p>
                 </motion.div>
               ))}
             </>

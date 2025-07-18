@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: "Saudia-Achademy",
     description:
-      "AA responsive internal web app for Saudi Academy to streamline employee requests and task management, featuring secure login, real-time request tracking, and an admin dashboard.",
+      "A responsive internal web app for Saudi Academy to streamline employee requests and task management, featuring secure login, real-time request tracking, and an admin dashboard.",
     image: "/next/saudia_acadimi.png",
     technologies: [
       "HTML5",

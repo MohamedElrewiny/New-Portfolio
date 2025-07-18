@@ -39,6 +39,19 @@ const Home = () => {
                 animate={{ scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
+                <Link
+                  href="/assets/cv/myCV.pdf"
+                  download="Mohamed_Morad_CV.pdf"
+                  className="inline-block bg-[#143D95] text-white border-2 border-[#143D95] px-6 py-3 rounded-lg font-medium hover:bg-primary-dark transition-colors"
+                >
+                  Download CV
+                </Link>
+              </motion.div>
+                            <motion.div
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+              >
                 <a
                   href="#contact"
                   className="inline-block    border-2  text-white px-6 py-3 rounded-lg font-medium hover:bg-primary-dark transition-colors"
@@ -52,13 +65,13 @@ const Home = () => {
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
                 <Link
-                  href="/assets/cv/myCV.pdf"
-                  download="Mohamed_Morad_CV.pdf"
+                  href="#projects"
                   className="inline-block bg-[#143D95] text-white border-2 border-[#143D95] px-6 py-3 rounded-lg font-medium hover:bg-primary-dark transition-colors"
                 >
-                  Download CV
+                  My Projects
                 </Link>
               </motion.div>
+
             </div>
           </div>
         </motion.section>

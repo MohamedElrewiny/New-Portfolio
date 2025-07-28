@@ -33,31 +33,25 @@ const Qualification = () => {
     {
       id: 1,
       title: "Senior Front-End Developer (Next.JS) - On site",
-      company: "Al-musanid Tech",
-      year: "Mar 2025 - Present",
+      company: "Almosand Alraqmi",
+      year: "April 2025 - Present",
       description: "Developed and maintained company websites and web applications with Next.js."
     },
     {
       id: 2,
       title: "Senior Front-End Developer - Remote",
       company: "Ultra-Progress",
-      year: " Mar 2025 - Present",
+      year: " April 2024 - April 2025",
       description: "Building responsive web applications with React || JS vanilla."
     },
     {
       id: 3,
       title: "Senior Front-End Developer - Remote",
       company: "IT.RENADMADI",
-      year: " Jun 2024 - Present",
+      year: " Jul 2024 - Jun 2025",
       description: "Building responsive web applications with React || JS vanilla."
     },
-    {
-      id: 4,
-      title: "Junior Front-End Developer - Remote",
-      company: "Ultra-Progress",
-      year: " Mar 2024 - Jun 2024",
-      description: "Building responsive web applications with React || JS vanilla."
-    }
+
   ];
 
   return (

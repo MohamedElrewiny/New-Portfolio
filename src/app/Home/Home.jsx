@@ -33,7 +33,32 @@ const Home = () => {
             >
               Senior Frontend Developer | React & Next.js
             </motion.p>
-            <div className="flex gap-4 justify-center">
+            <div className="flex gap-4 justify-center flex-wrap">
+              <motion.div
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+              >
+                <Link
+                  href="#projects"
+                  className="inline-block bg-[#143D95] text-white border-2 border-[#143D95] px-6 py-3 rounded-lg font-medium hover:bg-primary-dark transition-colors"
+                >
+                  My Projects
+                </Link>
+              </motion.div>
+              <motion.div
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+              >
+                <a
+                  href="#contact"
+                  className="inline-block    border-2  text-white px-6 py-3 rounded-lg font-medium hover:bg-primary-dark transition-colors"
+                >
+                  Contact Me
+                </a>
+              </motion.div>
+
               <motion.div
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
@@ -47,31 +72,6 @@ const Home = () => {
                   Download CV
                 </Link>
               </motion.div>
-                            <motion.div
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                transition={{ duration: 0.5, delay: 0.4 }}
-              >
-                <a
-                  href="#contact"
-                  className="inline-block    border-2  text-white px-6 py-3 rounded-lg font-medium hover:bg-primary-dark transition-colors"
-                >
-                  Contact Me
-                </a>
-              </motion.div>
-              <motion.div
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                transition={{ duration: 0.5, delay: 0.4 }}
-              >
-                <Link
-                  href="#projects"
-                  className="inline-block bg-[#143D95] text-white border-2 border-[#143D95] px-6 py-3 rounded-lg font-medium hover:bg-primary-dark transition-colors"
-                >
-                  My Projects
-                </Link>
-              </motion.div>
-
             </div>
           </div>
         </motion.section>

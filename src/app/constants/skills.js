@@ -19,6 +19,7 @@ import react from "../../Assets/skills-img/react.svg";
 import redux from "../../Assets/skills-img/redux.png";
 import git from "../../Assets/skills-img/git.svg";
 import mongodb from "../../Assets/skills-img/mongodb.png";
+import Shadcn from "../../Assets/skills-img/shadcn.png";
 
 import Image from "next/image";
 
@@ -100,6 +101,11 @@ export const skills = [
         />
       </svg>
     ),
+    level: 85,
+  },
+    {
+    name: "Shadcn",
+    icon: <Image src={Shadcn} alt="Shadcn" width={40} height={40} />,
     level: 85,
   },
   {
